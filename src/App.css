@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+#payment-button{
+  background-color: hsl(245, 75%, 52%);
+    padding: 1.2rem;
+    color: white;
+    width: 90%;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    font-size: 1.2rem;
+    cursor: pointer;
+    filter: drop-shadow(0 0.8rem 0.35rem hsl(225, 100%, 94%));
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#payment-button:hover
+{
+background-image:none;
+background-color: hsl(245, 75%, 75%)
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#cancel-button {
+  padding: 1.2em;
+  width: 90%;
+  border: none;
+  color: hsl(224, 23%, 55%);
+  background: none;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 1.2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#cancel-button:hover, #cancel-button:focus {
+  color: black;
+}
+
+.pricing-block{
+  box-sizing: border-box;
   display: flex;
-  flex-direction: column;
+  margin: 1rem auto;
+  padding: 1rem 0.5rem;
+  width: 90%;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+
 }
 
-.App-link {
-  color: #61dafb;
+#music-icon{
+  width: 20%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#price-description {
+  width: 20%;
+  text-align: left;
+}
+.accent-text{
+  font-weight: 900;
+}
+
+.body-text{
+  color: hsl(224, 23%, 55%);
+}
+
+#link {
+  width: 40%;
+  color: hsl(225, 100%, 94%);
+}
+
+a:hover, a:focus{
+  opacity: .7;
+  text-decoration: none;
 }
