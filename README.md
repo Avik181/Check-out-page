@@ -1,4 +1,4 @@
-This is challenge project from Frontend Masters, I took this chalenge to practice css flex box properties. 
+This is a challenge project from Frontend Masters, I took this chalenge to practice css flex box properties. 
 
 # Getting Started with Create React App
 
